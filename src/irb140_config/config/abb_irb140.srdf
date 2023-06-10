@@ -31,6 +31,22 @@
         <joint name="joint_5" value="0.0333"/>
         <joint name="joint_6" value="2.1214"/>
     </group_state>
+    <group_state name="Ikinematic" group="irb140_arm">
+        <joint name="joint_1" value="0.1"/>
+        <joint name="joint_2" value="0.2"/>
+        <joint name="joint_3" value="0.3"/>
+        <joint name="joint_4" value="0.4"/>
+        <joint name="joint_5" value="0.5"/>
+        <joint name="joint_6" value="0.6"/>
+    </group_state>
+    <group_state name="2" group="irb140_arm">
+        <joint name="joint_1" value="1.1629"/>
+        <joint name="joint_2" value="0.5111"/>
+        <joint name="joint_3" value="0.3"/>
+        <joint name="joint_4" value="0.4"/>
+        <joint name="joint_5" value="0.5"/>
+        <joint name="joint_6" value="0.6"/>
+    </group_state>
     <!--END EFFECTOR: Purpose: Represent information about an end effector.-->
     <end_effector name="hand" parent_link="link_5" group="hand"/>
     <!--VIRTUAL JOINT: Purpose: this element defines a virtual joint between a robot link and an external frame of reference (considered fixed with respect to the robot)-->
