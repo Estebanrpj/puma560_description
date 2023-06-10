@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>abb_irb140_support</name>
+  <version>2.0.6</version>
+  <description>irb 140 resources</description>
+
+  <author email="juanruiz473@outlook.com">Juan Ruiz</author>
+  <author email="jdavidom@gmail.com">Juan Ortega</author>
+  <author email="admon@universidadean.edu.co">Juan Cerquera</author>
+
+  <maintainer email="juanruiz473@outlook.com">Juan Ruiz</maintainer>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <export>
+      <build_type>ament_cmake</build_type>
+  </export>
+</package>
